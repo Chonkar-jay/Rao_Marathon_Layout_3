@@ -23,3 +23,30 @@
 {
     background-color:rgba(211, 211, 211, 0.459);
 }
+.third_section h2
+{
+    color: rgb(223, 59, 59);
+}
+.third_section h3,h4
+{
+    color: rgb(75, 75, 75);
+}
+.section_3_rhs
+{
+    background-color: rgb(56, 190, 243);
+}
+.logo_img
+{
+    height: 100px;
+    width:100px;
+}
+.section_4_lhs
+{
+    background-color: whitesmoke;
+}
+.bottom_line
+{
+    background-color: orangered;
+    padding: 1%;
+
+}
