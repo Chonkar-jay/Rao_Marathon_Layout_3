@@ -10,14 +10,14 @@
     background-color: rgba(0, 0, 0, 0.363);
     background-size: cover;
 }
-.languages ul
+.languages
 {
     background-color: rgba(128, 128, 128, 0.384);
     list-style: square;
 }
 .section_2_lhs
 {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(233, 233, 55, 0.74);
 }
 .section_2_rhs
 {
@@ -43,6 +43,22 @@
 .section_4_lhs
 {
     background-color: whitesmoke;
+}
+.our_company
+{
+    color: rgb(223, 59, 59); 
+}
+.section_4_lhs h3,h5,h6
+{
+    color:  rgb(75, 75, 75);
+}
+.section_4_rhs
+{
+    color: rgb(75, 75, 75);;
+}
+.section_4_rhs h2
+{
+    color: rgb(56, 190, 243); ;
 }
 .bottom_line
 {
