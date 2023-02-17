@@ -1,0 +1,25 @@
+.background_img
+{
+    background-image:url("Assest/Images/main_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo
+{
+    background-color: rgba(0, 0, 0, 0.363);
+    background-size: cover;
+}
+.languages ul
+{
+    background-color: rgba(128, 128, 128, 0.384);
+    list-style: square;
+}
+.section_2_lhs
+{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.section_2_rhs
+{
+    background-color:rgba(211, 211, 211, 0.459);
+}
