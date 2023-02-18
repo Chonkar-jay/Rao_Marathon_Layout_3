@@ -5,10 +5,22 @@
     background-size: cover;
     color: white;
 }
-.logo
+
+.u_logo_blue_line
+{
+    padding: 0.5%;
+    background-color: rgb(56, 190, 243);
+    margin-right: 544px;
+}
+.u_logo
 {
     background-color: rgba(0, 0, 0, 0.363);
-    background-size: cover;
+    background-size:cover;
+    margin-bottom: 10%;
+}
+.u_logo h2
+{
+    font-weight: 1000;
 }
 .languages
 {
@@ -23,9 +35,30 @@
 {
     background-color:rgba(211, 211, 211, 0.459);
 }
+.section_2_lhs h2
+{
+    font-size: 50;
+    font-weight: 1000;
+    padding-top: 2%;
+}
+.section_2_lhs h3
+{
+    font-size:30;
+}
+.section_2_rhs address
+{
+    text-align: right;
+}
+.section_2_rhs a
+{
+    text-decoration:none ;
+    color:white ;
+}
 .third_section h2
 {
+    margin-top: 2%;
     color: rgb(223, 59, 59);
+    font-weight: 800;
 }
 .third_section h3,h4
 {
@@ -34,11 +67,26 @@
 .section_3_rhs
 {
     background-color: rgb(56, 190, 243);
+    padding:4%;
 }
 .logo_img
 {
-    height: 100px;
-    width:100px;
+    height:70px;
+    width:70px;
+    padding-left: %;
+}
+.logo_name h3
+{
+    font-size: 18;
+    font-weight: 700;
+    padding-top: 28%;
+    color: white;
+    
+}
+.logo_name p
+{
+    font-size: 10;
+    font-weight: lighter;
 }
 .section_4_lhs
 {
