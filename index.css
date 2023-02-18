@@ -1,53 +1,81 @@
 .background_img
 {
-    background-image:url("Assest/Images/main_img.jpg");
+   /* background-image:url("Assest/Images/main_img.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     color: white;
+    position: relative;
 }
-
-.u_logo_blue_line
+.main img
 {
+    position:absolute;
+}
+.first_section hr
+{
+    position: static;
     padding: 0.5%;
     background-color: rgb(56, 190, 243);
-    margin-right: 544px;
+    width: 5%;
+    margin-left: 7%;
 }
 .u_logo
 {
     background-color: rgba(0, 0, 0, 0.363);
     background-size:cover;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
 }
 .u_logo h2
 {
     font-weight: 1000;
+    font-size: 70;
+    padding-left: 7%;
 }
-.languages
+.u_logo p
+{
+    font-size: 150%;
+    padding-left: 7%;
+}
+.languages 
 {
     background-color: rgba(128, 128, 128, 0.384);
+    font-size: 250%;
+    padding: 8%;
+    margin-top:-2%;
+    margin-bottom: -2.1 %;
+}
+.languages ul
+{
     list-style: square;
+    text-align: right;
+    direction: rtl;
+    font-weight: 1000;
 }
 .section_2_lhs
 {
     background-color: rgba(233, 233, 55, 0.74);
 }
+.section_2_lhs h2
+{
+    font-size: 500%;
+    font-weight: 1000;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+.section_2_lhs h3
+{
+    font-size:50;
+    padding-left: 7%;
+    padding-bottom: 4%  ;
+}
 .section_2_rhs
 {
     background-color:rgba(211, 211, 211, 0.459);
 }
-.section_2_lhs h2
-{
-    font-size: 50;
-    font-weight: 1000;
-    padding-top: 2%;
-}
-.section_2_lhs h3
-{
-    font-size:30;
-}
 .section_2_rhs address
 {
     text-align: right;
+    padding:5%;
+    margin-top: 8%;
 }
 .section_2_rhs a
 {
@@ -57,12 +85,26 @@
 .third_section h2
 {
     margin-top: 2%;
+    font-size: 450%;
     color: rgb(223, 59, 59);
-    font-weight: 800;
+    font-weight: 1000;
+    padding-left: 7%;
 }
-.third_section h3,h4
+.third_section h3
 {
     color: rgb(75, 75, 75);
+    padding-left: 7%;
+    font-size: 250%;
+}
+.third_section h5
+{
+    color: rgb(75, 75, 75);
+    padding-left: 7%;
+    font-size: 216%;
+}
+.third_section h3
+{
+    font-weight: 800;
 }
 .section_3_rhs
 {
@@ -71,46 +113,104 @@
 }
 .logo_img
 {
-    height:70px;
-    width:70px;
-    padding-left: %;
+    padding-left: 25%;
 }
 .logo_name h3
 {
-    font-size: 18;
-    font-weight: 700;
-    padding-top: 28%;
+    font-size: 30;
+    font-weight:1000;
+    padding-top:21%;
     color: white;
-    
+    padding-left: 7%;
+    margin-right: 13%;
 }
 .logo_name p
 {
-    font-size: 10;
+    font-size: 13;
     font-weight: lighter;
+    width: 100%;
+    color: white;
+    padding-left:2%; 
+    margin-top: -4%;
 }
 .section_4_lhs
 {
     background-color: whitesmoke;
 }
+.section_4_lhs sup
+{
+    font-size: 17;
+    font-weight: 30;
+}
+.section_4_lhs h5
+{
+    font-size: 190%;
+}
+.section_4_lhs h6
+{
+    text-align: justify;
+}
 .our_company
 {
+    padding-top: 4%;
     color: rgb(223, 59, 59); 
+    font-weight: 800;
+}
+.coded
+{
+    font-size: 300%;
+    font-weight: 1000;
+    padding-left: 7%;
 }
 .section_4_lhs h3,h5,h6
 {
     color:  rgb(75, 75, 75);
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
 .section_4_rhs
 {
-    color: rgb(75, 75, 75);;
+    color: rgb(75, 75, 75);
 }
 .section_4_rhs h2
 {
-    color: rgb(56, 190, 243); ;
+    padding-top: 8%;
+    color: rgb(56, 190, 243); 
+    font-weight: 1000;
+    font-size: 410%;
+    padding-right: 5%;
+}
+.section_4_rhs h3
+{
+    font-weight: 800;
+    font-size: 235%;
+    padding-right: 5%;
+}
+.section_4_rhs div
+{
+    font-weight: 900;
+    padding-right: 5%;
+}
+.section_4_rhs h5
+{
+    font-weight: 800;
+    font-size: 185%;
+    padding-right: 5%;
+}
+.section_4_rhs h6
+{
+    padding-left: 17%;
+    text-align:justify;
+    padding-right: 5%;
+    font-size: 100%;
+    direction: rtl;
 }
 .bottom_line
 {
-    background-color: orangered;
+    background-color:rgb(223, 59, 59);
     padding: 1%;
-
+    margin-left: -2%;
+    width: 102%;
+    margin-top: 25%;
 }
